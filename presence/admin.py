@@ -1,3 +1,8 @@
 from django.contrib import admin
+from  .models import Presence
 
-# Register your models here.
+class PresenceAdmin(admin.ModelAdmin):
+    pass
+
+admin.site.register(Presence, PresenceAdmin)
+

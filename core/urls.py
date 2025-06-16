@@ -23,5 +23,6 @@ urlpatterns = [
     path('auth/', include('authentification.urls')),
     path('presence/', include('presence.urls')),
     path('permissions/', include('permissions.urls')),
+    path('hierarchie/', include('hierarchie.urls')),
 
 ]

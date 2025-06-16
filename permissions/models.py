@@ -16,4 +16,4 @@ class PermissionRequest(models.Model):
     status = models.CharField(max_length=10, choices=STATUS_CHOICES, default='PENDING')
 
     def __str__(self):
-        return f"Permission de {self.user.username} du {self.start_date} au {self.end_date} - {self.status}"
+        return f"Demande de permission de {self.user.email} du {self.start_date} au {self.end_date} - {self.status}"

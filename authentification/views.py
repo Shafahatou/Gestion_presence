@@ -20,6 +20,7 @@ class LogoutView(APIView):
 
     def post(self, request):
         try:
+            print(request.data)
             token = RefreshToken(request.data['refresh'])
             token.blacklist()
             return Response(status=status.HTTP_205_RESET_CONTENT)
@@ -34,7 +35,7 @@ class UtilisateurProfileView(APIView):
         return Response(serializer.data)
 
 class RegisterView(APIView):
-    permission_classes = [permissions.IsAuthenticated, IsRHUser]  # ✅ RH uniquement
+    permission_classes = [permissions.IsAuthenticated, IsRHUser]  # RH uniquement
 
     def post(self, request, *args, **kwargs):
         serializer = RegisterSerializer(data=request.data)
