@@ -1,0 +1,66 @@
+[
+    {
+        "name": "",
+        "director": {
+            "role": "",
+            "email": "",
+            "firstName": "",
+            "lastName": "",
+            "sexe": ""
+        },
+        "departments": [
+            {
+                "name": "",
+                "chief": {
+                    "role": "",
+                    "email": "",
+                    "firstName": "",
+                    "lastName": "",
+                    "sexe": ""
+                },
+                "services": [
+                    {
+                        "name": "",
+                        "chief": {
+                            "role": "",
+                            "email": "",
+                            "firstName": "",
+                            "lastName": "",
+                            "sexe": ""
+                        },
+                        "employees": [
+                            {
+                                "role": "",
+                                "email": "",
+                                "firstName": "",
+                                "lastName": "",
+                                "sexe": ""
+                            }
+                        ],
+                        "unites": [
+                            {
+                                "name": "",
+                                "chief": {
+                                    "role": "",
+                                    "email": "",
+                                    "firstName": "",
+                                    "lastName": "",
+                                    "sexe": ""
+                                },
+                                "employees": [
+                                    {
+                                        "role": "",
+                                        "email": "",
+                                        "firstName": "",
+                                        "lastName": "",
+                                        "sexe": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }    
+]
